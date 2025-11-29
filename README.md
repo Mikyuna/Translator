@@ -20,5 +20,17 @@ The is a web application created to help users translate texts into different la
 - Provides extra tools like speech and copy buttons for each translation
 
 ## API used
+This project uses the OpenL Translate API via RapidAPI.
+The app sends the user’s text and target language to the /translate/bulk endpoint and displays the translated result in a chat-style interface.
+
 ## How to run
-## File structure
+1. Make sure index.html, style.css, and script.js are in the same folder.
+2. Open script.js and replace "KEY" with your own RapidAPI key.
+3. Double-click index.html (or open it in a browser like Chrome).
+4. Type a sentence, choose a target language, and click Send to see the translation.
+
+## Credits
+Translation functionality uses the OpenL Translate API from RapidAPI.
+https://rapidapi.com/lvwzhen/api/openl-translate
+
+Text-to-Speech uses the browser’s built-in Web Speech API.
